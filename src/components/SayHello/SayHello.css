@@ -1,0 +1,417 @@
+
+.say-hello {
+    background-color: #2a2928;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .say-hello .overlap-group-wrapper {
+    background-color: black;
+    width: 1440px;
+    height: 1198px;
+  }
+  
+  .say-hello .overlap-group {
+    position: relative;
+    height: 1198px;
+  }
+  
+  .say-hello .grain {
+    position: absolute;
+    width: 1440px;
+    height: 1187px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .say-hello .about {
+    position: absolute;
+    width: 581px;
+    height: 531px;
+    top: 264px;
+    left: 720px;
+  }
+  
+  .say-hello .group {
+    position: relative;
+    width: 583px;
+    height: 531px;
+  }
+  
+  .say-hello .if-you-have-any {
+    position: absolute;
+    width: 581px;
+    top: 0;
+    left: 0;
+    font-family: "Lato", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 17px;
+    letter-spacing: 0.3px;
+    line-height: 30.6px;
+  }
+  
+  .say-hello .text-wrapper {
+    letter-spacing: 0.05px;
+  }
+  
+  .say-hello .span {
+    letter-spacing: 0.05px;
+    text-decoration: underline;
+  }
+  
+  .say-hello .element {
+    position: absolute;
+    width: 116px;
+    height: 116px;
+    top: 864px;
+    left: 1291px;
+    object-fit: cover;
+  }
+  
+  .say-hello .img {
+    position: absolute;
+    width: 261px;
+    height: 300px;
+    top: 825px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .say-hello .nav-bar {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+    position: absolute;
+    top: 60px;
+    left: 882px;
+  }
+  
+  .say-hello .frame {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .say-hello .div {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .say-hello .contact {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 20px;
+    position: relative;
+    flex: 0 0 auto;
+    border: 1px solid;
+    border-color: #ffffff;
+  }
+  
+  .say-hello .element-2 {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    top: 49px;
+    left: 71px;
+    object-fit: cover;
+  }
+  
+  .say-hello .text-wrapper-2 {
+    position: absolute;
+    width: 714px;
+    top: 128px;
+    left: 364px;
+    font-family: "Rotterburg Stylish FREE-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 61px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    line-height: 109.8px;
+  }
+  
+  .say-hello .group-2 {
+    position: absolute;
+    width: 517px;
+    height: 629px;
+    top: 251px;
+    left: 111px;
+  }
+  
+  .say-hello .rectangle {
+    position: absolute;
+    width: 508px;
+    height: 51px;
+    top: 45px;
+    left: 0;
+    background-color: #afb3ff;
+    border-radius: 50px;
+    border: 1px solid;
+    border-color: #656ed3;
+  }
+  
+  .say-hello .rectangle-2 {
+    position: absolute;
+    width: 508px;
+    height: 51px;
+    top: 160px;
+    left: 0;
+    background-color: #afb3ff;
+    border-radius: 50px;
+    border: 1px solid;
+    border-color: #656ed3;
+  }
+  
+  .say-hello .rectangle-3 {
+    position: absolute;
+    width: 508px;
+    height: 246px;
+    top: 299px;
+    left: 3px;
+    background-color: #afb3ff;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: #e4a272;
+  }
+  
+  .say-hello .text-wrapper-3 {
+    position: absolute;
+    width: 109px;
+    top: 0;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .say-hello .frame-wrapper {
+    position: absolute;
+    width: 197px;
+    height: 43px;
+    top: 585px;
+    left: 309px;
+  }
+  
+  .say-hello .div-wrapper {
+    display: flex;
+    width: 197px;
+    height: 43px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 7px 150px;
+    position: relative;
+    background-color: #656ed3;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .say-hello .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-left: -73.64px;
+    margin-right: -73.64px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .say-hello .text-wrapper-5 {
+    position: absolute;
+    width: 62px;
+    top: 115px;
+    left: 3px;
+    font-family: "Lato", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .say-hello .text-wrapper-6 {
+    position: absolute;
+    width: 101px;
+    top: 253px;
+    left: 6px;
+    font-family: "Lato", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .say-hello .git-hub {
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    top: 559px;
+    left: 832px;
+    background-color: #eae8e8;
+    border-radius: 20px;
+    box-shadow: 0px 2.77px 2.21px #00000005, 0px 6.65px 5.32px #00000007, 0px 12.52px 10.02px #00000009,
+      0px 22.34px 17.87px #0000000b, 0px 41.78px 33.42px #0000000d, 0px 100px 80px #00000012;
+  }
+  
+  .say-hello .linked-in {
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    top: 559px;
+    left: 720px;
+    background-color: #eae8e8;
+    border-radius: 20px;
+    box-shadow: 0px 2.77px 2.21px #00000005, 0px 6.65px 5.32px #00000007, 0px 12.52px 10.02px #00000009,
+      0px 22.34px 17.87px #0000000b, 0px 41.78px 33.42px #0000000d, 0px 100px 80px #00000012;
+  }
+  
+  .say-hello .vector {
+    position: absolute;
+    width: 46px;
+    height: 49px;
+    top: 13px;
+    left: 16px;
+  }
+  
+  .say-hello .pinterest {
+    position: absolute;
+    width: 234px;
+    height: 254px;
+    top: 559px;
+    left: 864px;
+  }
+  
+  .say-hello .rectangle-4 {
+    position: absolute;
+    width: 46px;
+    height: 49px;
+    top: 572px;
+    left: 846px;
+    background-color: #5b7cf5;
+    border-radius: 3px;
+  }
+  
+  .say-hello .subtract {
+    position: absolute;
+    width: 31px;
+    height: 36px;
+    top: 578px;
+    left: 853px;
+  }
+  
+  .say-hello .footer {
+    position: absolute;
+    width: 1440px;
+    height: 103px;
+    top: 1095px;
+    left: 0;
+    background-color: #d3ccc9;
+  }
+  
+  .say-hello .text-wrapper-7 {
+    position: absolute;
+    width: 48px;
+    top: 29px;
+    left: 109px;
+    font-family: "Lato", Helvetica;
+    font-weight: 800;
+    color: #2a2928;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .say-hello .text-wrapper-8 {
+    position: absolute;
+    width: 68px;
+    top: 27px;
+    left: 742px;
+    font-family: "Lato", Helvetica;
+    font-weight: 800;
+    color: #2a2928;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .say-hello .p {
+    position: absolute;
+    width: 176px;
+    top: 43px;
+    left: 1211px;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    color: #2a2928;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .say-hello .text-wrapper-9 {
+    position: absolute;
+    width: 142px;
+    top: 57px;
+    left: 111px;
+    font-family: "Lato", Helvetica;
+    font-weight: 700;
+    color: #2a2928;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+    white-space: nowrap;
+  }
+  
+  .say-hello .linkedin {
+    position: absolute;
+    width: 28px;
+    height: 27px;
+    top: 52px;
+    left: 782px;
+  }
+  
+  .say-hello .vector-2 {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 52px;
+    left: 740px;
+  }
+  
+  .say-hello .element-3 {
+    position: absolute;
+    width: 292px;
+    height: 292px;
+    top: 472px;
+    left: 1145px;
+    object-fit: cover;
+  }

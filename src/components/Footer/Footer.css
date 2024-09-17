@@ -1,0 +1,141 @@
+.footer {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: #d3ccc9;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items:center;
+    padding: 20px;
+    bottom: 0;
+    /* margin-top: 10%; */
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  /* margin-bottom: 20px; */
+}
+
+ .email,
+ .connect {
+    /* position: absolute; */
+    width: 48px;
+    top: 29px;
+    left: 109px;
+    font-family: "Lato", Helvetica;
+    font-weight: 800;
+    color: #2a2928;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+.email-link {
+    /* position: absoluwe; */
+    /* width: 68px; */
+    /* top: 27px;
+    left: 742px; */
+    font-family: "Lato", Helvetica;
+    font-weight: 800;
+    color: #2a2928;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    /* padding: 20px; */
+  }
+  
+ .p {
+    /* position: absolute; */
+    /* width: 176px; */
+    /* top: 43px;
+    left: 1211px; */
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    color: #2a2928;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+/*.text-wrapper-3 {
+    position: absolute;
+    width: 142px;
+    top: 59px;
+    left: 109px;
+    font-family: "Lato", Helvetica;
+    font-weight: 700;
+    color: #2a2928;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+    white-space: nowrap;
+  }*/
+  
+ 
+  .icons {
+    display: flex;
+    justify-content: center;
+    /* padding: 10px; */
+}
+
+/* Add some spacing between footer elements */
+  .footer div {
+    margin-bottom: 7px;
+  }
+  
+  .footer a {
+    margin-right: 10px; /* Add some spacing between footer links */
+
+  }
+
+
+/*   
+ .text-wrapper-3 {
+    position: relative;  Change absolute to relative positioning
+    width: 100%;
+    font-family: "Lato", Helvetica;
+    font-weight: 700;
+    color: #2a2928;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+    white-space: nowrap;
+  } */
+  
+  .linkedin-icon,
+  .github-icon {
+    margin-right: 10px; /* Add spacing between icons */
+    width: 28px;
+    height: 28px;
+
+  } 
+
+  @media (min-width: 768px) {
+    .footer {
+        flex-direction: row;
+        position: relative;
+    }
+
+    .column {
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+
+    .p {
+        margin-top: 20px;
+    }
+}
+
+  

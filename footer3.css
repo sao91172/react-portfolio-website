@@ -1,0 +1,61 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3ccc9;
+    padding: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.email,
+.connect,
+.copyright {
+    font-family: "Lato", Helvetica;
+    font-weight: 800;
+    color: #2a2928;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.email-link {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.linkedin-icon,
+.github-icon {
+    width: 28px;
+    height: 28px;
+    margin: 0 5px;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        flex-direction: row;
+    }
+
+    .column {
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+
+    .copyright {
+        margin-top: 20px;
+    }
+}

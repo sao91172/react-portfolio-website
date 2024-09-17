@@ -1,0 +1,213 @@
+body {
+  position: relative;
+  /* background-color: rgb(0, 0, 0); */
+  background-image: url(../img/gradient-pack-02-1.png);
+  background-repeat: no-repeat;
+  text-align: center;
+   min-width: 375px;
+  min-height: 667px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.homepage-short {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  width: 100%;
+  padding: 20px;
+  position: relative;
+}
+
+.homepage-short .sparkle-cross,
+.homepage-short .sparkle-top,
+.homepage-short .sparkle-cross-bottom,
+.homepage-short .sparkle-bottom-left {
+  position: absolute;
+  height: auto;
+  object-fit: cover;
+  z-index: 0;
+  animation: rotate 10s linear infinite;
+}
+
+.homepage-short .sparkle-cross,
+.homepage-short .sparkle-bottom-left {
+  animation: rotateBackwards 10s linear infinite;
+}
+
+
+
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateBackwards {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.homepage-short .sparkle-cross {
+  width: 35.5vw;
+  top: 13%;
+  left: 81.4%;
+}
+
+.homepage-short .sparkle-top {
+  width: 27vw;
+  top: -12%;
+  left: -4vw;
+}
+
+.homepage-short .sparkle-cross-bottom {
+  width: 35vw;
+  /* max-width: 652px; */
+  bottom: -3.75%;
+  left: 69%;
+}
+
+.homepage-short .sparkle-bottom-left {
+  width: 35vw;
+  /* max-width: 484px; */
+  top: 45%;
+  left: -10%;
+}
+
+.name {
+  font-family: "Rotterburg Stylish FREE-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20vw;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  margin-top: 110px;
+  /* top:0%; */
+  z-index: 1;
+}
+
+/* @media screen and (max-width: 1024px) {
+  .homepage-short .sparkle-cross,
+  .homepage-short .sparkle-top,
+  .homepage-short .sparkle-cross-bottom,
+  .homepage-short .sparkle-bottom-left {
+    width: 30%;
+    max-width: none;
+  }
+
+  .homepage-short .sparkle-cross {
+    top: 50%;
+    left: 70%;
+  }
+
+  .homepage-short .sparkle-top {
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .homepage-short .sparkle-cross-bottom {
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .homepage-short .sparkle-bottom-left {
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .name {
+    font-size: 15vw;
+  }
+} */
+
+/* @media screen and (max-width: 768px) {
+  .homepage-short .sparkle-cross,
+  .homepage-short .sparkle-top,
+  .homepage-short .sparkle-cross-bottom,
+  .homepage-short .sparkle-bottom-left {
+    width: 50%;
+    max-width: none;
+  }
+
+  .homepage-short .sparkle-cross {
+    top: 50%;
+    left: 80%;
+  }
+
+  .homepage-short .sparkle-top {
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .homepage-short .sparkle-cross-bottom {
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .homepage-short .sparkle-bottom-left {
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .name {
+    font-size: 10vw;
+  }
+} */
+
+/* @media screen and (max-width: 480px) {
+  .homepage-short .sparkle-cross,
+  .homepage-short .sparkle-top,
+  .homepage-short .sparkle-cross-bottom,
+  .homepage-short .sparkle-bottom-left {
+    width: 70%;
+    max-width: none;
+  }
+
+  .homepage-short .sparkle-cross {
+    top: 50%;
+    left: 90%;
+  }
+
+  .homepage-short .sparkle-top {
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .homepage-short .sparkle-cross-bottom {
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .homepage-short .sparkle-bottom-left {
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .name {
+    font-size: 8vw;
+  }
+} */
