@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio-website/static/css/main.f855e6bc.css",
-    "main.js": "/react-portfolio-website/static/js/main.1d5bd504.js",
+    "main.css": "/react-portfolio-website/static/css/main.ab2c39db.css",
+    "main.js": "/react-portfolio-website/static/js/main.7fd70f7c.js",
     "static/js/453.aac68abc.chunk.js": "/react-portfolio-website/static/js/453.aac68abc.chunk.js",
-    "static/media/logo.svg": "/react-portfolio-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/4-1.png": "/react-portfolio-website/static/media/4-1.98c42feb4950ff252221.png",
+    "static/media/3-1.png": "/react-portfolio-website/static/media/3-1.5b98fcdd682da39f943a.png",
+    "static/media/17-1.png": "/react-portfolio-website/static/media/17-1.e4908e28a85f0dca2d9f.png",
+    "static/media/6-1.png": "/react-portfolio-website/static/media/6-1.e209cd381e4bb6fe54a7.png",
+    "static/media/gradient-pack-02-1.png": "/react-portfolio-website/static/media/gradient-pack-02-1.dcc97c8a95e1f1812bf8.png",
+    "static/media/vector.svg": "/react-portfolio-website/static/media/vector.89ae95745b84cd5e3c8ab258ecfac2ce.svg",
     "index.html": "/react-portfolio-website/index.html",
-    "main.f855e6bc.css.map": "/react-portfolio-website/static/css/main.f855e6bc.css.map",
-    "main.1d5bd504.js.map": "/react-portfolio-website/static/js/main.1d5bd504.js.map",
+    "static/media/linkedin.svg": "/react-portfolio-website/static/media/linkedin.132b9a5119c4296219aa2cc71e868b9a.svg",
+    "main.ab2c39db.css.map": "/react-portfolio-website/static/css/main.ab2c39db.css.map",
+    "main.7fd70f7c.js.map": "/react-portfolio-website/static/js/main.7fd70f7c.js.map",
     "453.aac68abc.chunk.js.map": "/react-portfolio-website/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.1d5bd504.js"
+    "static/css/main.ab2c39db.css",
+    "static/js/main.7fd70f7c.js"
   ]
 }
